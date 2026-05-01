@@ -79,6 +79,13 @@ func DocodeNodeName(nd *models.Node) (models.Node, error) { // 解码节点名�
 				return *nd, err
 			}
 			nd.Name = tuic.Name
+		case u.Scheme == "anytls":
+	        anytls, err := node.DecodeAnyTLSURL(nd.Link)
+	        if err != nil {
+		        log.Println(err)
+		        return *nd, err
+	        }
+	        nd.Name = anytls.Name	
 		}
 	}
 	return *nd, nil

@@ -343,6 +343,30 @@ func EncodeClash(urls []string, sqlconfig SqlConfig) ([]byte, error) {
 				Skip_cert_verify:   sqlconfig.Cert,
 			}
 			proxys = append(proxys, tuicproxy)
+		case Scheme == "anytls":
+			anytls, err := DecodeAnyTLSURL(link)
+			if err != nil {
+				log.Println(err)
+				continue
+			}
+			if anytls.Name == "" {
+				anytls.Name = fmt.Sprintf("%s:%s", anytls.Server, anytls.Port)
+			}
+			port, _ := strconv.Atoi(anytls.Port)
+
+			anytlsproxy := Proxy{
+				Name:             anytls.Name,
+				Type:             "anytls",
+				Server:           anytls.Server,
+				Port:             port,
+				Password:         anytls.Password,
+				Sni:              anytls.SNI,
+				Alpn:             []string{anytls.ALPN},
+				Udp:              sqlconfig.Udp,
+				Skip_cert_verify: sqlconfig.Cert,
+			}
+
+			proxys = append(proxys, anytlsproxy)
 		}
 	}
 	// 生成Clash配置文件
