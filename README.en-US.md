@@ -9,6 +9,8 @@
     <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
     <a href="https://t.me/+u6gLWF0yP5NiZWQ1" target="_blank">
     <div align="center"> <a href="README.md">中文<a> | English</div>
+
+    <div align="center">[中文](README.md) | [English](README.en-US.md)</div>
         
 </div>
 
