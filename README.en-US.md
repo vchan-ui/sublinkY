@@ -10,7 +10,9 @@
     <a href="https://t.me/+u6gLWF0yP5NiZWQ1" target="_blank">
     </a>
     <div align="center"> <a href="README.md">中文<a> | English</div>
+        
 </div>
+
 ## [Project Information]
 
 Project based on sublink project secondary development: https://github.com/jaaksii/sublink
