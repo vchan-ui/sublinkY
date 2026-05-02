@@ -4,7 +4,7 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/Vue-5.0.8-brightgreen.svg"/>
-    <img src="https://img.shields.io/badge/Go-1.22.0-green.svg"/>
+    <img src="https://img.shields.io/badge/Go-1.22.12-green.svg"/>
     <img src="https://img.shields.io/badge/Element Plus-2.6.1-blue.svg"/>
     <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
     <a href="https://t.me/+u6gLWF0yP5NiZWQ1" target="_blank">
