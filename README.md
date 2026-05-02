@@ -10,8 +10,6 @@
     <a href="https://t.me/+u6gLWF0yP5NiZWQ1" target="_blank">
         
    
-    <div align="center"> 中文 | <a href="README.en-US.md">English</div>
-</div>
 
 ## [项目简介]
 
