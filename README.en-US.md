@@ -8,7 +8,6 @@
     <img src="https://img.shields.io/badge/Element Plus-2.6.1-blue.svg"/>
     <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
     <a href="https://t.me/+u6gLWF0yP5NiZWQ1" target="_blank">
-    </a>
     <div align="center"> <a href="README.md">中文<a> | English</div>
         
 </div>
