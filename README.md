@@ -24,11 +24,11 @@
 
 ## [项目特色]
 
-目前仅支持客户端：v2ray clash surge
+目前仅支持客户端：v2ray clash surge 
 
 v2ray为base64通用格式
 
-clash支持协议:ss ssr trojan vmess vless hy hy2 tuic
+clash支持协议:ss ssr trojan vmess vless hy hy2 tuic anytls
 
 surge支持协议:ss trojan vmess hy2 tuic
 
