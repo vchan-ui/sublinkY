@@ -14,7 +14,7 @@
 
 ## [项目简介]
 
-项目基于sublink项目二次开发：https://github.com/jaaksii/sublink
+基于sublinkx作者原项目更新协议对接和完善：(https://github.com/gooaclok819/sublinkX)
 
 前端基于：https://github.com/youlaitech/vue3-element-admin
 
@@ -22,13 +22,7 @@
 
 默认账号admin 密码123456  自行修改
 
-因为重写目前还有很多布局结构以及功能稍少
-
 ## [项目特色]
-
-自由度和安全性较高，能够记录访问订阅，配置轻松
-
-二进制编译无需Docker容器
 
 目前仅支持客户端：v2ray clash surge
 
@@ -59,9 +53,9 @@ surge支持协议:ss trojan vmess hy2 tuic
 
 
 ## [安装说明]
-### linux方式：
+### 一键脚本部署方式：
 ```
-curl -s -H "Cache-Control: no-cache" -H "Pragma: no-cache" https://raw.githubusercontent.com/gooaclok819/sublinkX/main/install.sh | sudo bash
+bash <(curl -Ls https://raw.githubusercontent.com/vchan-ui/sublinkY/main/install.sh)
 ```
 
 ```sublink``` 呼出菜单
@@ -82,14 +76,6 @@ docker run --name sublinkx -p 8000:8000 \
 -v $PWD/logs:/app/logs \
 -d jaaksi/sublinkx
 ```
-
-To support the development of my project, I plan to apply for a free VPS offered by ZMTO. My project currently involves Docker image support for multiple architectures (arm64 and amd64), as well as automation for building and pushing. Therefore, I am requesting a 4-core, 8GB RAM Ubuntu VPS with root access.
-
-Thank you to the ZMTO team for your support. I look forward to leveraging this VPS to optimize my project's performance and development efficiency. If you have any questions or suggestions regarding my project, feel free to open an issue, and I will do my best to improve and optimize it.
-
-Thank you for your attention and support!
-
-Feel free to adjust any details as needed!
 
 ## Stargazers over time
 [![Stargazers over time](https://starchart.cc/gooaclok819/sublinkX.svg?variant=adaptive)](https://starchart.cc/gooaclok819/sublinkX)
