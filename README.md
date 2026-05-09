@@ -76,7 +76,3 @@ docker run --name sublinkx -p 8000:8000 \
 -v $PWD/logs:/app/logs \
 -d jaaksi/sublinkx
 ```
-
-## Stargazers over time
-[![Stargazers over time](https://starchart.cc/gooaclok819/sublinkX.svg?variant=adaptive)](https://starchart.cc/gooaclok819/sublinkX)
-
